@@ -1,0 +1,27 @@
+<h2>Help us to help <span id="you">You</span></h2>
+
+<p>Please refil all the fields and tell us how we can help you!</p>
+
+<form [formGroup]="contactForm" (ngSubmit)="onSubmit()">
+  <label for="first-name"
+    ><span>First Name:</span
+    ><input formControlFname="fname" type="text" id="first-name" /></label
+  ><br />
+  <hr />
+  <label for="last-name"
+    ><span>Last Name:</span
+    ><input formControlLname="lname" type="text" id="last-name" /></label
+  ><br />
+  <hr />
+  <label for="email"
+    ><span>Email:</span
+    ><input formControlEmail="email" type="email" id="email" /></label
+  ><br />
+  <hr />
+  <label for="age"
+    ><span>Age:</span
+    ><input formControlAge="age" type="number" id="age" /></label
+  ><br />
+  <hr />
+  <button type="submit">Submit</button>
+</form>

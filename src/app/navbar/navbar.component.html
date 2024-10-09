@@ -1,0 +1,19 @@
+<nav class="navbar navbar-expand-lg bg-dark">
+  <div class="container-fluid">
+    <div>
+      <a class="navbar-brand text-white fw-bold" routerLink="Home">Home</a>
+      <a class="navbar-brand text-white fw-bold" routerLink="contact-us"
+        >Contact Us</a
+      >
+    </div>
+    <div class="nav-output text-white">
+      {{ number }}$ @if(number >= 200){
+      <span>You are <span class="text-warning fw-bold">VIP</span></span>
+      }
+    </div>
+
+    <button class="btn bg-success text-warning fw-bold" (click)="addMoney()">
+      Add 10€
+    </button>
+  </div>
+</nav>

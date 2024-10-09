@@ -1,0 +1,40 @@
+h2{
+    text-align: center;
+    font-weight: bold;
+    margin-top: 2rem;
+
+}
+#you{
+    color: goldenrod;
+    font-size: 2rem;
+}
+form{
+    margin-top: 3rem;
+    margin-inline: auto;
+    border: 5px double teal;
+    width: 500px;
+    padding: 2rem;
+}
+label{
+    display: flex;
+    flex-direction: column;
+}
+span{
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: goldenrod;
+}
+p{
+    text-align: center;
+    padding: 1rem;
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: rgb(38, 48, 182);
+}
+button{
+    background-color: rgba(220, 20, 60, 0.751);
+    color: aqua;
+    font-weight: bold;
+    border-radius: 10px;
+    padding-inline: .5rem;
+}

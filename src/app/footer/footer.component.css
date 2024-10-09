@@ -1,0 +1,10 @@
+p{
+    width: 100%;
+    background-color: grey;
+    color: whitesmoke;
+    padding: 1rem;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 2rem;
+}

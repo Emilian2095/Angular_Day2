@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.row{
+   margin-top: 50px;
+   padding-inline: 10rem;
+}
+.card{
+    width: 500px;
+    margin-bottom: 1rem;
+    box-shadow: 5px 5px 10px grey;
+}
+
+ img{
+width:100%;
+height: 350px;
+}
+h5{
+    text-align: center;
+    font-weight: bold;
+    border-bottom: 5px double teal;
+}
+.price{
+    display: flex;
+    justify-content: space-between;
+    padding: .5rem;
+}
+.price p{
+    font-weight: bold;
+}
+button{
+    font-weight: bold;
+    padding-inline: .5rem;
+}
+.money{
+    color: goldenrod;
+}
+p{
+   border-bottom: 1px dotted grey;
+}

@@ -1,0 +1,17 @@
+<div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
+  <div *ngFor="let car of cars">
+    <div class="card">
+      <img src="{{ car.img }}" class="card-img-top" alt="car-image" />
+      <div class="card-body">
+        <h5 class="text-danger card-title">{{ car.name }}</h5>
+        <div class="price">
+          <p class="card-text">
+            Price
+            <span class="money">{{ car.price | currency : "EUR" }}</span>
+          </p>
+          <button class="btn btn-info text-danger fw-bold">Buy</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
